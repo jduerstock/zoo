@@ -41,8 +41,10 @@ char *option;
 	unsigned int filetag;							/* tag stored in input */
 	int stat1, stat2, stat3;						/* status codes */
 	int use_lzh = 0;									/* use lzh instead */
-	extern lzc(), lzh_encode();					/* possible encoders */
-	extern lzd(), lzh_decode();					/* and decoders */
+	extern int lzc();					/* possible encoders */
+	extern int lzh_encode();
+	extern int lzd();					/* and decoders */
+	extern int lzh_decode();
 
 	while (*++option) {
 		switch (*option) {
