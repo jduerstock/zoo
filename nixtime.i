@@ -17,7 +17,7 @@ struct tm *localtime();
 Function gettime() gets the date and time of the file handle supplied.
 Date and time is in MSDOS format.
 */
-int gettime (file, date, time)
+void gettime (file, date, time)
 ZOOFILE file;
 unsigned *date, *time;
 {

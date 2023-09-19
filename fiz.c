@@ -24,6 +24,7 @@ file by supplying the offset of the file.
 void prtctrl ();
 void prtch ();
 
+int
 main(argc,argv)
 register int argc;
 register char **argv;

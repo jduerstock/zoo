@@ -46,7 +46,7 @@ T_SIGNAL ctrl_c PARMS ((int));
 int exists PARMS ((char *));
 int getfile PARMS ((ZOOFILE, ZOOFILE, long, int));
 int getutime PARMS ((char *, unsigned *, unsigned *));
-int gettime PARMS ((ZOOFILE, unsigned *, unsigned *));
+void gettime PARMS ((ZOOFILE, unsigned *, unsigned *));
 T_SIGNAL handle_break PARMS ((int));
 
 #ifdef USE_ASCII

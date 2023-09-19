@@ -43,6 +43,7 @@ int next_arg = FIRST_ARG; /* filenames start at this position */
 int arg_count;          /* count of arguments supplied to program */
 char **arg_vector;      /* vector of arguments supplied to program */
 
+int
 main(argc,argv)
 register int argc;
 register char **argv;
